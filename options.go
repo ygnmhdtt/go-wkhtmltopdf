@@ -341,7 +341,7 @@ func newPageOptions() pageOptions {
 		NoCustomHeaderPropagation: boolOption{option: "no-custom-header-propagation"},
 		DebugJavascript:           boolOption{option: "debug-javascript"},
 		DefaultHeader:             boolOption{option: "default-header"},
-		Encoding:                  stringOption{option: "encoding"},
+		Encoding:                  stringOption{option: "encoding", value: "utf8"},
 		DisableExternalLinks:      boolOption{option: "disable-external-links"},
 		EnableForms:               boolOption{option: "enable-forms"},
 		NoImages:                  boolOption{option: "no-images"},
